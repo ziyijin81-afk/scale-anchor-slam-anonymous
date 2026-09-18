@@ -3,8 +3,8 @@
 Anonymous code release for the double-blind submission on fixed-root scale
 anchoring and sequence-consistent loop closure for VGGT-based monocular SLAM.
 
-This repository contains the modified VGGT-SLAM 2.0 pipeline, evaluation
-utilities, and unit tests. Dataset files, model checkpoints, experiment logs,
+This repository contains the modified VGGT-SLAM 2.0 pipeline and the minimal
+TUM evaluation utilities. Dataset files, model checkpoints, experiment logs,
 and author-identifying material are intentionally excluded.
 
 ## Installation
@@ -44,8 +44,8 @@ with `--skip_dense_log`.
 ## Reproducibility
 
 The main entry point exposes the submap, keyframe, anchor, retrieval, and loop
-closure options used by the experiments. Evaluation scripts are under
-`evals/`, and unit tests are under `tests/`.
+closure options used by the experiments. The minimal TUM evaluation scripts
+are under `evals/`.
 
 No dataset or checkpoint is bundled. Download each dataset from its official
 source and pass local paths through the command-line arguments or evaluation
