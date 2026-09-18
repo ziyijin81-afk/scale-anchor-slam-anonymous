@@ -27,7 +27,7 @@ repository.
 Run the system on a folder of RGB images:
 
 ```bash
-./project_python.sh main.py \
+python main.py \
   --image_folder /path/to/images \
   --submap_size 16 \
   --overlapping_window_size 1 \
